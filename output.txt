@@ -1,0 +1,25 @@
+Välkommen till mitt RECON script för att kontrollera en Linux-miljö
+
+=== SYSTEMINFO ===
+Linux T-kali 6.12.38+kali-amd64 #1 SMP PREEMPT_DYNAMIC Kali 6.12.38-1kali1 (2025-08-12) x86_64 GNU/Linux
+
+=== AKTUELL ANVÄNDARE ===
+tilde
+
+=== ANVÄNDARE MED SHELL ===
+root:x:0:0:root:/root:/usr/bin/zsh
+postgres:x:114:118:PostgreSQL administrator:/var/lib/postgresql:/bin/bash
+tilde:x:1000:1000:Tilde ,,,:/home/tilde:/usr/bin/zsh
+
+=== NÄTVERK ===
+    inet 127.0.0.1/8 scope host lo
+    inet6 ::1/128 scope host noprefixroute 
+    inet 10.0.2.15/24 brd 10.0.2.255 scope global dynamic noprefixroute eth0
+    inet6 fd17:625c:f037:2:ef72:5f6f:e286:de48/64 scope global temporary dynamic 
+    inet6 fd17:625c:f037:2:a00:27ff:fe5a:9973/64 scope global dynamic mngtmpaddr noprefixroute 
+    inet6 fe80::a00:27ff:fe5a:9973/64 scope link noprefixroute 
+
+=== RAM-ANVÄNDNING  ===
+              totalt      använt       fritt       delat  buff/cache  tillgängl.
+Minne:         1,9Gi       894Mi       555Mi        12Mi       710Mi       1,1Gi
+Växl.:         1,3Gi       1,3Mi       1,3Gi
